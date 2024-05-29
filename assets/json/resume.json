@@ -57,7 +57,7 @@
       "position": "Thesis Student",
       "startDate": "2020-12",
       "endDate": "2021-03",
-      "summary": "Analysis of the osteological finds recovered in the crypt of the Church of Santa Maria Maggiore in Vercelli with the objective of obtaning as much in- formation as possible regarding the population found e of analyzing what can be found in a similar archeological context. To reach such objectives, the biological profile of each find was reconstructed; also the events, both of pathological and taphonomic nature, that led to the current state of con- servation of each find were recontructed.",
+      "summary": "Analysis of the osteological finds recovered in the crypt of the Church of Santa Maria Maggiore in Vercelli with the objective of obtaning as much in- formation as possible regarding the population found e of analyzing what can be found in a similar archeological context. To reach such objectives, the biological profile of each find was reconstructed; also the events, both of pathological and taphonomic nature, that led to the current state of conservation of each find were recontructed.",
       "highlights": ["Bioarcheology", "Osteology", "Taphonomy", "Pathology"]
     },
     {
@@ -145,8 +145,7 @@
     {
       "name": "Fast matching statistics for long similar strings",
       "publisher": "Zsuzsanna Lipták, Martina Lucà, Francesco Masillo, Simon J. Puglisi",
-      "releaseDate": "submitted",
-      "summary": "Matching statistics (MS ) computation is at the heart of numerous bioinfor- matics applications, from read alignment to computing phylogenies of a set of genomes or even speeding up the computation of core data structures on collections of genomes. Many of these datasets have the property of being highly similar to the reference, which itself, however, may not be very repetitive. Some heuristics based on sequence- to-sequence similarity have already been studied in [Lipt ́ak et al., Alg. Mol. Biol. 2024], leading to a significant speedup in the computation of the matching statistics. In this paper, we introduce a new heuristic that further speeds MS computation. The core idea is to take advantage of existing similarities between the input sequences and the reference. We give an implementation making use of this heuristic, which also allows the use of multiple threads to parallelize MS computation. We give an experimental evaluation of our tool, LRF-ms, comparing it to other MS computation tools, on pub- licly available genomic datasets, and show that it is the fastest when the collection of genomes is highly similar to the reference string while keeping a comparably low memory footprint."
+      "releaseDate": "submitted"
     }
   ],
   "skills": [
@@ -157,6 +156,17 @@
         "OS (Windows, Mac, Linux)",
         "Common Programs (Office suite)",
         "Programming (C++, Python, R, Bash, Git, html/css, LaTeX, markdown)"
+      ]
+    },
+    {
+      "name": "Biological Skills",
+      "icon": "fa-solid fa-microscope",
+      "keywords": [
+        "Isolation of nucleic acids (RNA) and proteins",
+        "Transformation of bacteria (E. coli)",
+        "Enzymatic activity assays",
+        "Toxicity assays on cell cultures and zebrafish embryos",
+        "Cell cultures (bacterial and animal)"
       ]
     }
   ],
