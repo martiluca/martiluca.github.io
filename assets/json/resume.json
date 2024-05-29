@@ -12,59 +12,89 @@
       "countryCode": "IT",
       "region": "Veneto"
     },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+    // "profiles": [
+    //   {
+    //     "network": "Twitter",
+    //     "username": "AlbertEinstein",
+    //     "url": "https://twitter.com/AlbertEinstein"
+    //   }
+    // ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Centro di Ricerca Applicata ARC-NET \"Miriam Cherubini Loro\"",
+      "position": "Scholarship Holder",
+      "startDate": "2023-11",
+      "endDate": "",
+      "summary": "Development, maintenance and update of a pipeline for the analysis of genomic panels.",
+      "highlights": ["Python", "Snakemake", "Nextflow", "Docker", "R", "Bash"]
+    },
+    {
+      "name": "Università degli studi di Verona",
+      "position": "Thesis Student",
+      "startDate": "2023-08",
+      "endDate": "2024-03",
+      "summary": "Study of the Prefix-Free Parsing Algorithm. In particular, I focused on the evaluation of the importance of the choice of parameters (modulo m and window size w) and the impact they have on the dimension of the final Dictionary and Parse. To do so I used as datasets a series of genomics libraries, both real and artificially created in way that allowed me to control the within sequence similarity of the collection and to evaluate its impact on the dimension of Dictionary and Parse.",
+      "highlights": ["C++", "Python", "LaTeX"]
     }
   ],
   "volunteer": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "Italian Red Cross",
+      "location": "Verona, Italy",
+      "position": "Volunteer",
+      "startDate": "2022-12",
+      "endDate": "",
+      "summary": "I volunteer mainly in the societal field (organizing the warehouse, distribu- tion of food, food collection, grocery shopping service for the elders, ...). I'm currently enrolled in the course for the OPEM title (Emergency Operator)."
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
+      "institution": "University of Verona",
+      "location": "Verona, Italy",
+      "url": "https://www.univr.it/en/home",
+      "area": "Molecular and Medical Biotechnology",
+      "studyType": "Master's Degree",
+      "startDate": "2021-10",
+      "endDate": "2024-03",
+      "score": "110/110L",
+      "courses": ["Parameters for Prefix-Free Parsing: Analysis and Experimentation"]
+    },
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "institution": "University of Granada",
+      "location": "Granada, Spain",
+      "studyType": "Erasmus+ Blended Intensive Program",
+      "startDate": "2023-01",
+      "endDate": "2023-04"
+    },
+    {
+      "institution": "University of Insubria",
+      "location": "Varese, Italy",
+      "area": "Biotechnology",
+      "studyType": "Bachelor's Degree",
+      "startDate": "2017-10",
+      "endDate": "2021-03",
+      "score": "103/110",
+      "courses": ["Bioarcheological analysis of the osteological finds from the crypt of the Church of Santa Maria Maggiore in Vercelli"]
+    },
+    {
+      "institution": "Liceo Paolo Giovio",
+      "location": "Como, Italy",
+      "area": "Scientific High School",
+      "studyType": "High School",
+      "startDate": "2012-09",
+      "endDate": "2017-07"
     }
   ],
+  // "awards": [
+  //   {
+  //     "title": "Nobel Prize in Physics",
+  //     "date": "1921-11-01",
+  //     "awarder": "Royal Swedish Academy of Sciences",
+  //     "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
+  //     "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+  //   }
+  // ],
   "certificates": [
     {
       "name": "Machine Learning",
