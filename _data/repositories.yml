@@ -1,7 +1,8 @@
 github_users:
   - martiluca
 
-# github_repos:
+github_repos:
+  - martiluca/SciThesis
 #   - alshedivat/al-folio
 #   - twbs/bootstrap
 #   - jekyll/jekyll
