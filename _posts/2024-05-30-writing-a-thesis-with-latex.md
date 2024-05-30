@@ -1,10 +1,14 @@
 ---
-layout: post
+layout: distill
 title: Writing a thesis in LaTeX
-date: 2024-05-30 14:43:00
+date: 2024-05-30
 description: Why you should write your thesis in LaTeX? Start here and give it a try!
 tags: formatting thesis latex template stem
 categories: LaTeX
+featured: true
+
+authors:
+    - name: Martina Lucà
 ---
 
 ## Why LaTeX?
