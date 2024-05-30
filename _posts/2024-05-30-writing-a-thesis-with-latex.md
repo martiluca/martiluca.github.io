@@ -53,11 +53,12 @@ Once you downloaded the zip and opened it with your preferred editor (on Overlea
 
 Once you understand how this structure works, you can easily add and remove things. First, let's change the Title Page! Open the relative file `titlepage.tex`: here, you can insert your university name, department, course, title, supervisors' name, academic year, and your name and matriculation number. 
 
-> [!IMPORTANT]
+> ##### WARNING
 >
 > This template uses custom fonts! You will have to change the compiler from pdfLaTeX to either XeLaTeX or LuaLaTeX! 
 >
 > To do so in overleaf, click the Menu button in the top left corner. You will find the compiler option in the Settings section.
+{: .block-warning }
 
 ### Managing and adding chapters
 
@@ -76,9 +77,10 @@ As you can see, I added a dedication page. You can choose to remove it by removi
 
 To modify other sections, like the abstract or the introduction, you can go to their respective files: `./frontmatter/abstract.tex` and `./chapters/introduction.tex`. If you want to add other section, do so by creating the relative tex file in the appropriate folder; the add it to the main document by including it in the `main.tex` file: `\include{path/to/document.tex}`.
 
-> [!TIP]
+> ##### TIP
 >
 > If you are having trouble with anything, I suggest you refer to the Overleaf tutorials. Usually, you can find everything you may need there. Moreover, I suggest the [LaTeX Cookbook](https://github.com/PacktPublishing/LaTeX-Cookbook) by Stefan Kottwitz, a book that teaches you how to solve common problems when using LaTeX.
+{: .block-tip }
 
 ### Customization
 
