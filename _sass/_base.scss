@@ -70,6 +70,11 @@ blockquote {
   &.block-tip {
     border-color: var(--global-tip-block);
     background-color: var(--global-tip-block-bg);
+    margin: 16px auto;
+    padding: 10px 30px;
+    border-radius: 4px;
+    border-left: none;
+    page-break-inside: avoid;
 
     p {
       color: var(--global-tip-block-text);
@@ -88,6 +93,11 @@ blockquote {
   &.block-warning {
     border-color: var(--global-warning-block);
     background-color: var(--global-warning-block-bg);
+    margin: 16px auto;
+    padding: 10px 30px;
+    border-radius: 4px;
+    border-left: none;
+    page-break-inside: avoid;
 
     p {
       color: var(--global-warning-block-text);
@@ -106,6 +116,11 @@ blockquote {
   &.block-danger {
     border-color: var(--global-danger-block);
     background-color: var(--global-danger-block-bg);
+    margin: 16px auto;
+    padding: 10px 30px;
+    border-radius: 4px;
+    border-left: none;
+    page-break-inside: avoid;
 
     p {
       color: var(--global-danger-block-text);
