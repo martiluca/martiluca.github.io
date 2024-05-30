@@ -68,16 +68,16 @@ blockquote {
 
   /* Tips, warnings, and dangers blockquotes */
   &.block-tip {
-    border-color: var(--global-tip-block);
-    background-color: var(--global-tip-block-bg);
-    margin: 16px auto;
-    padding: 10px 30px;
-    border-radius: 4px;
-    border-left: none;
-    page-break-inside: avoid;
+    border-color: var(--global-tip-block) !important;
+    background-color: var(--global-tip-block-bg) !important;
+    margin: 16px auto !important;
+    padding: 10px 30px !important;
+    border-radius: 4px !important;
+    border-left: none !important;
+    page-break-inside: avoid !important;
 
     p {
-      color: var(--global-tip-block-text);
+      color: var(--global-tip-block-text) !important;
     }
 
     h1,
@@ -86,21 +86,21 @@ blockquote {
     h4,
     h5,
     h6 {
-      color: var(--global-tip-block-title);
+      color: var(--global-tip-block-title) !important;
     }
   }
 
   &.block-warning {
-    border-color: var(--global-warning-block);
-    background-color: var(--global-warning-block-bg);
-    margin: 16px auto;
-    padding: 10px 30px;
-    border-radius: 4px;
-    border-left: none;
-    page-break-inside: avoid;
+    border-color: var(--global-warning-block) !important;
+    background-color: var(--global-warning-block-bg) !important;
+    margin: 16px auto !important;
+    padding: 10px 30px !important;
+    border-radius: 4px !important;
+    border-left: none !important;
+    page-break-inside: avoid !important;
 
     p {
-      color: var(--global-warning-block-text);
+      color: var(--global-warning-block-text) !important;
     }
 
     h1,
@@ -109,21 +109,21 @@ blockquote {
     h4,
     h5,
     h6 {
-      color: var(--global-warning-block-title);
+      color: var(--global-warning-block-title) !important;
     }
   }
 
   &.block-danger {
-    border-color: var(--global-danger-block);
-    background-color: var(--global-danger-block-bg);
-    margin: 16px auto;
-    padding: 10px 30px;
-    border-radius: 4px;
-    border-left: none;
-    page-break-inside: avoid;
+    border-color: var(--global-danger-block) !important;
+    background-color: var(--global-danger-block-bg) !important;
+    margin: 16px auto !important;
+    padding: 10px 30px !important;
+    border-radius: 4px !important;
+    border-left: none !important;
+    page-break-inside: avoid !important;
 
     p {
-      color: var(--global-danger-block-text);
+      color: var(--global-danger-block-text) !important;
     }
 
     h1,
@@ -132,7 +132,7 @@ blockquote {
     h4,
     h5,
     h6 {
-      color: var(--global-danger-block-title);
+      color: var(--global-danger-block-title) !important;
     }
   }
 }
