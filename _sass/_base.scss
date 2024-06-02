@@ -128,16 +128,6 @@ blockquote > :is(p, ol, ul, pre, table):first-child::before {
     background-color: var(--block-caution-bg);
     border-color: rgba(244, 63, 94, 0.5);
   }
-
-  a {
-    color: inherit; 
-    text-decoration: underline; 
-    transition: color 0.3s ease;
-
-    &:hover {
-      color: darken(var(--block-note-bg), 10%); 
-    }
-  }
 }
 
 // Checklist
