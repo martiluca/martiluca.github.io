@@ -105,13 +105,12 @@ blockquote > :is(p, ol, ul, pre, table):first-child::before {
     background-color: var(--block-tip-bg);
     border-color: rgba(0, 191, 165, 0.5);
 
-    &.fa-regular{
-      font-size: small;
-      color: var(--block-tip-bg)
-    }
-
-    &.note-title {
-      color: var(--block-note-bg);
+    &.title{
+      font-size: medium;
+      color: var(--block-tip-bg);
+      font-weight: bold;
+      display: flex;
+      justify-content: space-between;
     }
   }
 
