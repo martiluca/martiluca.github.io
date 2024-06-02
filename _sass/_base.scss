@@ -103,14 +103,6 @@ blockquote > :is(p, ol, ul, pre, table):first-child::before {
   &.alert-tip {
     background-color: var(--block-tip-bg);
     border-color: rgba(0, 191, 165, 0.5);
-
-    &.title{
-      font-size: medium;
-      color: var(--block-tip-bg);
-      font-weight: bold;
-      display: flex;
-      justify-content: space-between;
-    }
   }
 
   &.alert-important {
@@ -127,6 +119,13 @@ blockquote > :is(p, ol, ul, pre, table):first-child::before {
     background-color: var(--block-caution-bg);
     border-color: rgba(244, 63, 94, 0.5);
   }
+}
+
+.alert .title{
+  font-size: medium;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
 }
 
 // Checklist
