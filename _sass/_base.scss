@@ -96,9 +96,17 @@ blockquote > :is(p, ol, ul, pre, table):first-child::before {
   border-left: 4px solid;
   page-break-inside: avoid;
 
+  &.fa-regular{
+    font-size: small;
+  }
+
   &.alert-note {
     background-color: var(--block-note-bg);
     border-color: rgba(25, 134, 255, 0.5);
+  }
+
+  &.note-title {
+    color: var(--block-note-bg);
   }
 
   &.alert-tip {
@@ -122,12 +130,12 @@ blockquote > :is(p, ol, ul, pre, table):first-child::before {
   }
 
   a {
-    color: inherit; /* Inherit the text color from the alert block */
-    text-decoration: underline; /* Add underline to distinguish links */
+    color: inherit; 
+    text-decoration: underline; 
     transition: color 0.3s ease;
 
     &:hover {
-      color: darken(var(--block-note-bg), 10%); /* Darken the link color on hover */
+      color: darken(var(--block-note-bg), 10%); 
     }
   }
 }
