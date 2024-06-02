@@ -53,11 +53,19 @@ Once you downloaded the zip and opened it with your preferred editor (on Overlea
 
 Once you understand how this structure works, you can easily add and remove things. First, let's change the Title Page! Open the relative file `titlepage.tex`: here, you can insert your university name, department, course, title, supervisors' name, academic year, and your name and matriculation number. 
 
-**Warning**
-
-This template uses custom fonts! You will have to change the compiler from pdfLaTeX to either XeLaTeX or LuaLaTeX! 
-
-To do so in overleaf, click the Menu button in the top left corner. You will find the compiler option in the Settings section.
+<!-- Important Alert -->
+<div class="alert alert-important">
+    <div class="title">
+        <span>Important</span>
+        <span><i class="fa-regular fa-message"></i></span>
+    </div>
+    <p>
+        This template uses custom fonts! You will have to change the compiler from pdfLaTeX to either XeLaTeX or LuaLaTeX! 
+    </p>
+    <p>
+        To do so in overleaf, click the Menu button in the top left corner. You will find the compiler option in the Settings section.
+    </p>
+</div>
 
 ### Managing and adding chapters
 
