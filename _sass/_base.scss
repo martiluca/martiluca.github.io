@@ -11,6 +11,7 @@
   --block-warning-bg: rgba(234, 179, 8, 0.16);
   --block-caution-bg: rgba(244, 63, 94, 0.16);
   --quote-background-color: rgba(0, 0, 0, 0.05);
+  --text-muted-color: #666;
 }
 
 p,
@@ -73,18 +74,6 @@ blockquote {
   transition: all 0.2s ease;
   position: relative;
   z-index: 0;
-}
-
-blockquote > :is(p, ol, ul, pre, table):first-child::before {
-  content: "format_quote";
-  font-family: "Material Icons";
-  position: absolute;
-  display: block;
-  top: -30px;
-  right: -20px;
-  font-size: 2.4rem;
-  color: var(--text-muted-color);
-  opacity: 0.2;
 }
 
 // Alerts
@@ -840,7 +829,6 @@ pre {
 }
 
 code {
-  color: var(--global-theme-color);
   background-color: var(--global-code-bg-color);
   border-radius: 3px;
   padding: 3px 3px;
