@@ -82,7 +82,7 @@ As you can see, I added a dedication page. You can choose to remove it by removi
 \newpage
 ```
 
-To modify other sections, like the abstract or the introduction, you can go to their respective files: `./frontmatter/abstract.tex` and `./chapters/introduction.tex`. If you want to add other section, do so by creating the relative tex file in the appropriate folder; the add it to the main document by including it in the `main.tex` file: `\include{path/to/document.tex}`.
+To modify other sections, like the abstract or the introduction, you can go to their respective files: `./frontmatter/abstract.tex` and `./chapters/introduction.tex`. If you want to add another section, do so by creating the relative tex file in the appropriate folder; then add it to the main document by including it in the `main.tex` file: `\include{path/to/document.tex}`.
 
 <!-- Tip Alert -->
 <div class="alert alert-tip">
@@ -91,7 +91,7 @@ To modify other sections, like the abstract or the introduction, you can go to t
         <span><i class="fa-regular fa-lightbulb"></i></span>
     </div>
   <p>
-    If you are having trouble with anything, I suggest you refer to the Overleaf tutorials. Usually, you can find everything you may need there. Moreover, I suggest the <a href="https://github.com/PacktPublishing/LaTeX-Cookbook">LaTeX Cookbook</a> by Stefan Kottwitz, a book that teaches you how to solve common problems when using LaTeX.
+    If you are having troubles with anything, you can refer to the Overleaf tutorials. Usually, you can find everything you may need there. Moreover, I suggest the <a href="https://github.com/PacktPublishing/LaTeX-Cookbook">LaTeX Cookbook</a> by Stefan Kottwitz, a book that teaches you how to solve common problems when using LaTeX.
   </p>
 </div>
 
