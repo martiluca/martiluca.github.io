@@ -23,3 +23,21 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+.tip {
+  margin: 16px auto;
+  padding: 10px 30px;
+  border-radius: 4px;
+  border-left: none;
+  page-break-inside: avoid;
+  background-color: #00bfa529;
+  color: #00ad99;
+}
+
+.tip h4 {
+  color: #00ad99;
+}
+
+.fa-lightbulb {
+  color: #00ad99;
+}
