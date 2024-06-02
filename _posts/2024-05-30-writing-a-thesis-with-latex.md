@@ -76,13 +76,9 @@ As you can see, I added a dedication page. You can choose to remove it by removi
 
 To modify other sections, like the abstract or the introduction, you can go to their respective files: `./frontmatter/abstract.tex` and `./chapters/introduction.tex`. If you want to add other section, do so by creating the relative tex file in the appropriate folder; the add it to the main document by including it in the `main.tex` file: `\include{path/to/document.tex}`.
 
-<div class="tip">
-    <i class="fa-regular fa-lightbulb"></i><h4>Tip</h4>
-    <p>
-    If you are having trouble with anything, I suggest you refer to the Overleaf tutorials. Usually, you can find everything you may need there. Moreover, I suggest the [LaTeX Cookbook](https://github.com/PacktPublishing/LaTeX-Cookbook) by Stefan Kottwitz, a book that teaches you how to solve common problems when using LaTeX.
-    </p>
-</div>
+**Tip**
 
+If you are having trouble with anything, I suggest you refer to the Overleaf tutorials. Usually, you can find everything you may need there. Moreover, I suggest the [LaTeX Cookbook](https://github.com/PacktPublishing/LaTeX-Cookbook) by Stefan Kottwitz, a book that teaches you how to solve common problems when using LaTeX.
 
 ### Customization
 

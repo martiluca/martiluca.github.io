@@ -211,8 +211,6 @@ kramdown:
     block:
       line_numbers: false
       start_line: 1
-    blockquote:
-      class: 'block-tip block-warning block-danger'
 
 # Includes & excludes
 include: ["_pages"]
