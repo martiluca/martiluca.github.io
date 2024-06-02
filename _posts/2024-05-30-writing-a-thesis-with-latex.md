@@ -91,7 +91,7 @@ To modify other sections, like the abstract or the introduction, you can go to t
         <span><i class="fa-regular fa-lightbulb"></i></span>
     </div>
   <p>
-    If you are having troubles with anything, you can refer to the Overleaf tutorials. Usually, you can find everything you may need there. Moreover, I suggest the <a href="https://github.com/PacktPublishing/LaTeX-Cookbook">LaTeX Cookbook</a> by Stefan Kottwitz, a book that teaches you how to solve common problems when using LaTeX.
+    If you are having troubles with anything, you can refer to the Overleaf tutorials. Usually, you can find everything you may need there. Moreover, I suggest the <a href="https://www.packtpub.com/product/latex-cookbook-second-edition/9781835080320">LaTeX Cookbook</a> by Stefan Kottwitz, a book that teaches you how to solve common problems when using LaTeX.
   </p>
 </div>
 
