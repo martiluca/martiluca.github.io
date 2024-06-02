@@ -133,6 +133,41 @@ blockquote > :is(p, ol, ul, pre, table):first-child::before {
   opacity: 0.2;
 }
 
+// Alerts
+
+.alert {
+  margin: 16px auto;
+  padding: 10px 30px;
+  border-radius: 4px;
+  border-left: 4px solid;
+  page-break-inside: avoid;
+
+  &.alert-note {
+    background-color: var(--block-note-bg);
+    border-color: rgba(25, 134, 255, 0.5);
+  }
+
+  &.alert-tip {
+    background-color: var(--block-tip-bg);
+    border-color: rgba(0, 191, 165, 0.5);
+  }
+
+  &.alert-important {
+    background-color: var(--block-important-bg);
+    border-color: rgba(153, 102, 232, 0.5);
+  }
+
+  &.alert-warning {
+    background-color: var(--block-warning-bg);
+    border-color: rgba(234, 179, 8, 0.5);
+  }
+
+  &.alert-caution {
+    background-color: var(--block-caution-bg);
+    border-color: rgba(244, 63, 94, 0.5);
+  }
+}
+
 // Checklist
 
 ul.task-list {
