@@ -78,7 +78,10 @@ To modify other sections, like the abstract or the introduction, you can go to t
 
 <!-- Tip Alert -->
 <div class="alert alert-tip">
-  <i class="fa-regular fa-lightbulb"></i><strong class="note-title">Tip</strong>
+    <div class="title">
+        <span>Tip</span>
+        <span><i class="fa-regular fa-lightbulb"></i></span>
+    </div>
   <p>
     If you are having trouble with anything, I suggest you refer to the Overleaf tutorials. Usually, you can find everything you may need there. Moreover, I suggest the <a href="https://github.com/PacktPublishing/LaTeX-Cookbook">LaTeX Cookbook</a> by Stefan Kottwitz, a book that teaches you how to solve common problems when using LaTeX.
   </p>

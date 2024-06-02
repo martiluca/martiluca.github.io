@@ -96,22 +96,23 @@ blockquote > :is(p, ol, ul, pre, table):first-child::before {
   border-left: 4px solid;
   page-break-inside: avoid;
 
-  &.fa-regular{
-    font-size: small;
-  }
-
   &.alert-note {
     background-color: var(--block-note-bg);
     border-color: rgba(25, 134, 255, 0.5);
   }
 
-  &.note-title {
-    color: var(--block-note-bg);
-  }
-
   &.alert-tip {
     background-color: var(--block-tip-bg);
     border-color: rgba(0, 191, 165, 0.5);
+
+    &.fa-regular{
+      font-size: small;
+      color: var(--block-tip-bg)
+    }
+
+    &.note-title {
+      color: var(--block-note-bg);
+    }
   }
 
   &.alert-important {
