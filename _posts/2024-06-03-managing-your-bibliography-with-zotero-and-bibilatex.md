@@ -1,7 +1,7 @@
 ---
 layout: distill
 title: Managing your bibliography with Zotero and BibLaTeX
-date: 2024-05-30
+date: 2024-06-03
 description: Simplify your thesis writing process by managing your bibliography with Zotero and BibLaTeX. Learn how to set up, export, and customize your references seamlessly!
 tags: bibliography thesis latex zotero biblatex
 categories: LaTeX
