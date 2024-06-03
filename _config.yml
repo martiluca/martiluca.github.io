@@ -129,7 +129,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: martiluca # blog_name will be displayed in your blog page
-blog_description: a simple blog and portfolio
+blog_description: I talk about stuff (mainly LaTeX)
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
