@@ -44,14 +44,15 @@ Once you downloaded the zip and opened it with your preferred editor (on Overlea
 │   ├── logo.png
 │   └── titlepage.tex
 ├── settings/
-│   ├── fonts
-│   └── commands.tex
+│   ├── fonts/
+│   ├── commands.tex
+│   └── config.tex
 ├── main.tex
 ├── ref.bib
 └── SciThesis.cls
 ```
 
-Once you understand how this structure works, you can easily add and remove things. First, let's change the Title Page! Open the relative file `titlepage.tex`: here, you can insert your university name, department, course, title, supervisors' name, academic year, and your name and matriculation number. 
+Once you understand how this structure works, you can easily add and remove things. First, let's change the Title Page! To do so, all you have to do is open the `config.tex` file: here, you can insert your university name, department, course, title, supervisors' name, academic year, and your name and matriculation number. 
 
 <!-- Important Alert -->
 <div class="alert alert-important">
@@ -64,6 +65,9 @@ Once you understand how this structure works, you can easily add and remove thin
     </p>
     <p>
         To do so in overleaf, click the Menu button in the top left corner. You will find the compiler option in the Settings section.
+    </p>
+    <p>
+        If you are using VSCode with LaTeX Workshop, I have included the appropriate flag at the start of the document (`%!TEX program = lualatex`). All you have to do is enabling magic comments by changing the setting forceRecipeUsage to false.
     </p>
 </div>
 
