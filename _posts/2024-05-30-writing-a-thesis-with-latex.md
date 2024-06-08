@@ -31,7 +31,7 @@ In this article, I will explain how to use my particular template, which can be 
 
 Once you downloaded the zip and opened it with your preferred editor (on Overleaf, you can start a new project by simply uploading the zip file), you will see the following file structure:
 
-```
+```typograms
 .
 ├── backmatter/
 │   └── acknowledgements.tex
@@ -67,7 +67,7 @@ Once you understand how this structure works, you can easily add and remove thin
         To do so in overleaf, click the Menu button in the top left corner. You will find the compiler option in the Settings section.
     </p>
     <p>
-        If you are using VSCode with LaTeX Workshop, I have included the appropriate flag at the start of the document (`%!TEX program = lualatex`). All you have to do is enabling magic comments by changing the setting forceRecipeUsage to false.
+        If you are using VSCode with LaTeX Workshop, I have included the appropriate flag at the start of the document (%!TEX program = lualatex). All you have to do is enabling magic comments by changing the setting forceRecipeUsage to false.
     </p>
 </div>
 
