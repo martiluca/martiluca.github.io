@@ -13,8 +13,8 @@ authors:
 
 <div class="alert alert-note">
     <div class="title">
-        <span>Important</span>
-        <span><i class="fa-regular fa-message"></i></span>
+        <span>Note</span>
+        <span><i class="fa-regular fa-note-sticky"></i></span>
     </div>
     <p>
     	This post will refer mainly to how to do all these things using my template (<a href="https://github.com/martiluca/SciThesis">SciThesis</a>).
