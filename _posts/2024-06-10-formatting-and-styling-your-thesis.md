@@ -20,7 +20,7 @@ authors:
     	This post will refer mainly to how to do all these things using my template (<a href="https://github.com/martiluca/SciThesis">SciThesis</a>).
     </p>
     <p>
-    	You can still follow along and implement them in your LaTeX document. Keep in mind that all these things will probably be more complicated to implement if you are using another template.
+    	You can still follow along and use this for your LaTeX document. Keep in mind that all these things will probably be more complicated to implement if you are using another template.
     </p>
 </div>
 
@@ -162,7 +162,7 @@ This package allows you to choose from the following styles: `Sonny`, `Lenny`, `
 
 ## Page Layout
 
-Sometimes, you need to comply with certain standards. The `geometry `package allows you to adjust the page geometry:
+Sometimes, you need to comply with certain standards. The `geometry` package allows you to adjust the page geometry:
 
 ```latex
 \usepackage{geometry}
