@@ -4,7 +4,7 @@ layout: distill
 
 title: Writing a Resume with LaTeX
 
-date: 2024-18-11
+date: 2024-11-18
 
 description:  Creating a resume that stands out can be a challenge. Here, I present you a guide on how to use my template to create a good looking resume in LaTeX and I share some of the tips and tricks that I learned along the way.
 
