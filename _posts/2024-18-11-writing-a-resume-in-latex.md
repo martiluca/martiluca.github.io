@@ -20,15 +20,6 @@ authors:
 
 ---
 
-<div class=“alert alert-warning”>
- 	<div class="title">
-        <span>Important</span>
-        <span><i class="fa-regular fa-message"></i></span>
-    </div>
-	 <p>
-    	This post will refer to my template (<a href="https://github.com/martiluca/cvitae">cvitae</a>). 
-    </p>
-</div>
 
 ## Introduction
 
