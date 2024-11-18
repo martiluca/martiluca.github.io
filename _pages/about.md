@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: Snapseed.jpg
+  image: profile.jpeg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>Verona, Italy</p>
@@ -16,10 +16,8 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi! I'm Martina Lucà. I am currently a Scholarship Holder at ARC-NET Applied Research Center - Miriam Cherubini Loro, University of Verona.
+Hi! I'm Martina Lucà. I am currently a Computer Science PhD student at the University of Verona. There, I'm working on developing and testing algorithms for computationa biology and I will also work with variant calling applied to pangenomics. 
 
-Previously, I was a student of the Master's Degree in Molecular and Medical Biotechnology at the University of Verona.
+My journey started with a Bachelor's degree in biotechnology (University of Insubria, Varese (VA), Italy) and followed with a Master's degree in the same field (University of Verona, Verona (VR), Italy). After my Master's degree, I also got a Scholarship at ARC-NET Applied Research Center - Miriam Cherubini Loro (University of Verona).
 
-During these studies I developed an interest for the field of Bioinformatics, especially applied to genomics.
-
-My objective is to deepen my knowledge in this field, trying to combine my passion for Biology with the one for Computer Science.
+This blog will contain everything I want to share during my journey of trying to connect my interest in biotechnology with computer science. 
