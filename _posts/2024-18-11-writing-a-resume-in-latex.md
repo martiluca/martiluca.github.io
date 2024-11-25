@@ -153,13 +153,7 @@ You can find more detailed examples within the template itself, so refer to them
   <p>
     Keep your content concise. A clean, uncluttered resume is easier to read and leaves a stronger impression. Avoid overly long descriptions and focus on quantifiable achievements whenever possible. 
   </p>
-  </p>
 </div>
-
-## Conclusion
-Here’s a draft for the **Conclusion** section that ties everything together:
-
-Your revision sounds great! It's personal and engaging while keeping the tone professional. Here's a slightly refined version with just a couple of small tweaks for flow:
 
 ## Conclusion
 
